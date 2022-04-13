@@ -1,0 +1,8 @@
+prefix=/home/ikutan/catkin_ws/devel
+
+Name: zeromq
+Description: Description of zeromq
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

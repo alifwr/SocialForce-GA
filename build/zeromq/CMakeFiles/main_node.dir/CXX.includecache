@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ikutan/catkin_ws/src/zeromq/include/extApi.h
+extApiPlatform.h
+/home/ikutan/catkin_ws/src/zeromq/include/extApiPlatform.h
+v_repConst.h
+/home/ikutan/catkin_ws/src/zeromq/include/v_repConst.h
+
+/home/ikutan/catkin_ws/src/zeromq/include/extApiPlatform.h
+stdint.h
+-
+
+/home/ikutan/catkin_ws/src/zeromq/src/main.cpp
+extApi.h
+-
+extApiPlatform.h
+-
+iostream
+-
+array
+-
+chrono
+-
+thread
+-
+

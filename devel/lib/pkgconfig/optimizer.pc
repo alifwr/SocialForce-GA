@@ -1,0 +1,8 @@
+prefix=/home/ikutan/catkin_ws/devel
+
+Name: optimizer
+Description: Description of optimizer
+Version: 0.0.0
+Cflags: -I/home/ikutan/catkin_ws/src/optimizer/include
+Libs: -L${prefix}/lib -loptimizer -lga
+Requires: roscpp rospy

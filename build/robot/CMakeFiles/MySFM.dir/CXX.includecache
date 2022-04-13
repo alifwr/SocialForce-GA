@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ikutan/catkin_ws/src/robot/include/SFM/my_sfm.hpp
+array
+-
+iostream
+-
+cmath
+-
+
+/home/ikutan/catkin_ws/src/robot/src/MySFM.cpp
+SFM/my_sfm.hpp
+/home/ikutan/catkin_ws/src/robot/src/SFM/my_sfm.hpp
+

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ikutan/catkin_ws/src/zeroMQ/src/main.cpp
+RemoteAPIClient.h
+/home/ikutan/catkin_ws/src/zeroMQ/src/RemoteAPIClient.h
+iostream
+-
+iomanip
+-
+

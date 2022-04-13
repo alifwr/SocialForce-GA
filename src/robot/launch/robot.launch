@@ -1,0 +1,7 @@
+<launch>
+    <group ns="robot">
+        <node pkg="robot" type="scan.py" name="scanner" output="screen"></node>
+        <!-- <node pkg="robot" type="visualizer.py" name="visualizer" output="screen"></node> -->
+        <node pkg="robot" type="run" name="main_program" output="screen"></node>
+    </group>
+</launch>

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ikutan/catkin_ws/src/robot/include/GA/ga.h
+array
+-
+iostream
+-
+math.h
+-
+
+/home/ikutan/catkin_ws/src/robot/src/ga.cpp
+GA/ga.h
+/home/ikutan/catkin_ws/src/robot/src/GA/ga.h
+

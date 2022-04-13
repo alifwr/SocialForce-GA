@@ -1,0 +1,2 @@
+mypackage:robot:ros_bubble_rob:sim_ros_interface
+-DCATKIN_DEVEL_PREFIX=/home/ikutan/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ikutan/catkin_ws/install -G Unix Makefiles

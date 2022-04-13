@@ -1,0 +1,8 @@
+prefix=/home/ikutan/catkin_ws/install
+
+Name: genetic_algorithm
+Description: Description of genetic_algorithm
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

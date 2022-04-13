@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ikutan/catkin_ws/src/optimizer/include/GeneticAlgorithm/ga.h
+array
+-
+iostream
+-
+cstdlib
+-
+ctime
+-
+
+/home/ikutan/catkin_ws/src/optimizer/src/source.cpp
+iostream
+-
+GeneticAlgorithm/ga.h
+/home/ikutan/catkin_ws/src/optimizer/src/GeneticAlgorithm/ga.h
+
