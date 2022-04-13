@@ -27,7 +27,7 @@ float simulateOnce(ros::Rate loop_rate, SFM sfm, Fuzzy fuzzy_static, Fuzzy fuzzy
 geometry_msgs::Twist robot_setpoint_msg;
 geometry_msgs::Point resultant_msg;
 float robotHeading;
-int iteration = 5;
+int iteration = 100;
 array<float, 2> robotPos, targetPos;
 array<float, 2> staticObj, dynamicObj, goalObj;
 array<float, 2> impulse;
